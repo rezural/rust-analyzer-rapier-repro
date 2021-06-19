@@ -1,0 +1,8 @@
+[workspace]
+members = [ 
+        "build/choccy",
+        "build/biccies"
+]
+
+[profile.release]
+codegen-units = 1
